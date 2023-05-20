@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    animation: header 2s ease-in-out;
+}
+
+@keyframes header {
+    0% {
+        transform: translateX(-100%);
+    }
+}
+
+h1 {
+    animation: header 200ms ease-in-out;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-100%);
+    }
+}
+
+nav {
+    animation: header 300ms ease-in-out;
+}
+
+@keyframes header {
+    0% {
+        transform: translateX(-100%);
+    }
+}
+
+section {
+    animation: header 400ms ease-in-out;
+}
+
+@keyframes header {
+    0% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.im {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+/* .im:hover{
+    width: 100%;
+    height: 200px;
+} */
+
+.cars {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .maru{
+    margin-bottom: 50px;
+} */
